@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.inicial{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../imagens/pfundo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+}
+.inicial h1{
+    padding-left: 38.5vw;
+    padding-top: 57vh;
+    color: rgb(0, 29, 194);
+    font-size: 4.5rem;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+}
+
+.inicial h2{
+    padding-left: 38.5vw;
+    color:rgb(0, 29, 194);
+    font-size: 3rem;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+}
+
+.apresentacao{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 238, 218);
+}
+
+.apresentacao h1{
+    padding-left: 13vw;
+    padding-top: 10vh;
+    color: rgb(0, 29, 194);
+    font-size: 4rem;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+}
+
+.apresentacao h3{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    width: 40vw;
+    margin-left: 5vw;
+    text-align: justify;
+}
+.apresentacao p{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    width: 40vw;
+    margin-left: 5vw;
+}
+.apresentacao ol{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    width: 40vw;
+    margin-left: 5vw;
+    padding-left: 3vw;
+}
